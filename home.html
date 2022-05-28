@@ -33,8 +33,7 @@ body {
 		background-color: #121212;
 		 }
          
-p {		margin-left: 350px;
-		margin-right: 350px;
+p {
 		text-align: left;
 		font-size: 20px;
 		font-family: 'Karla', arial, sans-serif;
@@ -90,7 +89,7 @@ btn:hover {
   background-color: #b0b0b0;
 }
 
-.container {
+container {
   display: inline-block;
   cursor: pointer;
 }
@@ -158,6 +157,30 @@ btn:hover {
   display: block;
 }
 
+container { 
+	width: 400px;
+	height: 300px;
+	background-color: #ccc;
+	position: center; /*it can be fixed too*/
+	left: 0; 
+	right: 0; 
+	top: 0; 
+	bottom: 0; 
+	margin: auto; /*this to solve "the content will not be cut when the window is smaller than the content": */ 
+	max-width: 100%; 
+	max-height: 100%; 
+	overflow: auto; 
+    }
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: darkgray;
+}
+
+::selection {
+  color: white;
+  background: darkgray
+}
 #bannerimage {
   width: 100%;
   background-image: url(https://media.baamboozle.com/uploads/images/62026/1592285356_75201);
@@ -165,16 +188,7 @@ btn:hover {
   background-color: none;
   background-position: up;
   }
-  ::-moz-selection { /* Code for Firefox */
-  color: white;
-  background: gray;
-}
-
-::selection {
-  color: white;
-  background: gray;
-}
-
+  
 </style>
 <!-- END OF STYLE TYPE TEXT -->
 </header>
@@ -191,7 +205,7 @@ btn:hover {
   <a href="home.html">Home</a>
   <a href="#news">Latest Posts</a>
   <div class="dropdown">
-    <button class="dropbtn">Recomended Readings 
+    <button class="dropbtn">More Options
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
@@ -203,30 +217,28 @@ btn:hover {
   
   <div>
  <span style="float:right;">
-	 <rtxt>Posted on Fri 27/05/2022</rtxt>
+	 <rtxt>Fri 27/05/2022</rtxt>
     </span>
 </div>
   
   <br><br>
-	<h1>Mildly Wild Thing</h1>
+	<div class="container"><h1>Mildly Wild Thing</h1></div>
     <div style="text-align:center;"> <undh1>A blog about the ins and outs of a strange mind</undh1></div>
     <br><br>
     
-	  <div margin-bottom=30px>
+
+	  <div class="container">
    <p>I always wanted to create a blog to talk about something, but I never had the ability to do so.<br>
      Well. I still don't have, but now I'm trying to learn the basics so I can get started.
 </p>
    </div>
-	  <div margin-bottom=30px>
+	  <div class="container">
 		  <p>One question I had right off the bat that was kind of annoying to get over was the question of what to write about... should I write about photography, perhaps, since it's a beloved hobby of mine? Or write about Architecture, which is my field in college? 
            <br> <em>No!</em> I wanted something more… <strong>remarkable</strong>.
           </p>
    </div>
-	  <div margin=30px>
+	  <div class="container">
 	  <p>Don't get me wrong, I'm not saying architecture or photography aren't remarkable subjects; I just want to make my mark with something more personal. Like a captain's journal or a mission report, in which I would relate my experiences - or should I say, my "craziences" — and hide in plain sight this savagery that is life. The life from my point of view.</p>
-   </div>
-	  <div margin-right=30px>
-		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna fringilla urna porttitor rhoncus dolor purus non enim praesent. Mauris in aliquam sem fringilla. Nunc non blandit massa enim nec. Duis ut diam quam nulla porttitor massa. Felis eget velit aliquet sagittis id consectetur purus ut faucibus. Sem viverra aliquet eget sit amet. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Tempor id eu nisl nunc mi ipsum faucibus vitae aliquet. Donec ultrices tincidunt arcu non sodales.</p>
    </div>
 	
    <p>again and again</p>
@@ -235,3 +247,4 @@ btn:hover {
    <p>again and again</p>
 		  
 </body>
+
