@@ -158,6 +158,9 @@ btn:hover {
   display: block;
 }
 
+container { width: 400px; height: 300px; background-color: #ccc; position: absolute; /*it can be fixed too*/ left: 0; right: 0; top: 0; bottom: 0; margin: auto; /*this to solve "the content will not be cut when the window is smaller than the content": */ max-width: 100%; max-height: 100%; overflow: auto; }
+
+
 #bannerimage {
   width: 100%;
   background-image: url(https://media.baamboozle.com/uploads/images/62026/1592285356_75201);
@@ -203,16 +206,16 @@ btn:hover {
     <div style="text-align:center;"> <undh1>And here's a sample subtitle, I hope it works well :)</undh1></div>
     <br><br>
     
-	  <div margin-bottom=30px>
+	  <div class="container">
    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
    </div>
-	  <div margin-bottom=30px>
+	  <div class="container">
 		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna fringilla urna porttitor rhoncus dolor purus non enim praesent. Mauris in aliquam sem fringilla. Nunc non blandit massa enim nec. Duis ut diam quam nulla porttitor massa. Felis eget velit aliquet sagittis id consectetur purus ut faucibus. Sem viverra aliquet eget sit amet. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Tempor id eu nisl nunc mi ipsum faucibus vitae aliquet. Donec ultrices tincidunt arcu non sodales.</p>
    </div>
-	  <div margin=30px>
+	  <div class="container">
 	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna fringilla urna porttitor rhoncus dolor purus non enim praesent.  Lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Tempor id eu nisl nunc mi ipsum faucibus vitae aliquet. Donec ultrices tincidunt arcu non sodales.</p>
    </div>
-	  <div margin-right=30px>
+	  <div class="container">
 		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna fringilla urna porttitor rhoncus dolor purus non enim praesent. Mauris in aliquam sem fringilla. Nunc non blandit massa enim nec. Duis ut diam quam nulla porttitor massa. Felis eget velit aliquet sagittis id consectetur purus ut faucibus. Sem viverra aliquet eget sit amet. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Tempor id eu nisl nunc mi ipsum faucibus vitae aliquet. Donec ultrices tincidunt arcu non sodales.</p>
    </div>
 	
