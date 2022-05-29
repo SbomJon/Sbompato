@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+			<meta charset="UTF-8" />
+			<title>Mildly Wild Thing &#8211; Jonatas Sbompato</title>
+			<script type="text/javascript">
+			</script>
+	<!--Link para as fontes-->
+ 	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Lora&display=swap" rel="stylesheet">
+  	<!--Fim do Link para as fontes-->
+  	<link href="https://media.baamboozle.com/uploads/images/62026/1592285356_75201">
+	<!--Add icon library-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	
+     <header>
+     
+     
+      <div id="bannerimage"> 
+  </div>
+  <div class="navbar">
+  <a href="home.html">Home</a>
+  <a href="#news">Latest Posts</a>
+  <div class="dropdown">
+    <button class="dropbtn">More Options
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+  <br><br>
+  
+  
+  	
+    
+    <div style="text-align:center; font-family: 'Lora', arial, serif; ;
+    ">
+    <h1>Menu</h1>
+     <undh1>Bellow there's some places you may want go; have fun! :)</undh1>
+    </div>
+    <br>
+
+  
+    <style type="text/css">
+    
+body {
+	margin: 0;
+    text-align: left; 
+	color: #ffffff !important;
+	background-color: #121212;
+    font-family: 'Karla', arial, sans-serif;
+	}
+		
+.top {
+	padding: 3em;
+    /*-- when you want to make these texts into a grid use "display: grid;" bellow --*/
+	display: grid;
+    grid-gap: 2em;
+	grid-template-columns: repeat(
+	auto-fit, minmax(250px, 1fr));
+	}
+            
+.quote1 {
+    padding: .3em;
+    border-radius: 5em;
+    margin-left: 10vw;
+    margin-right: 10vw;
+	}
+    
+.quote {
+	padding: 2em;
+	border-radius: .3em;
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+    }
+    
+p {
+	margin-top: 0;
+    font-size: 20px;
+	}
+span {
+	font-weight: bold;
+	position: relative;
+	margin-left: 15px;
+		&:before {
+		content: '';
+		position: absolute;
+		height: 1px;
+		width: 10px;
+		border-bottom: 1px solid black;
+		top: 10px;
+		left: -15px;
+		}
+	}
+			
+	
+h1 {	
+        color: #ffffff !important;
+		margin-bottom: 20px;
+        text-align: center !important;
+		font-size:41.472px;
+		font-family: 'Lora', serif;
+        font-weight:normal;
+		}
+   
+        
+        ::-moz-selection { /* Code for Firefox */
+  			color: white;
+  			background: darkgray;
+		}
+
+		::selection {
+  			color: white;
+  			background: darkgray
+		}
+        
+        btn {
+  background-color: #121212;
+  border: none;
+  color: #ffffff;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* Lighter background on mouse-over */
+btn:hover {
+  background-color: #b0b0b0;
+}
+
+container {
+  	display: inline-block;
+  	cursor: pointer;
+	width: 400px;
+	height: 300px;
+	background-color: #121212;
+	position: center; /*it can be fixed too*/
+	left: 0; 
+	right: 0; 
+	top: 0; 
+	bottom: 0; 
+	margin: auto; /*this to solve "the content will not be cut when the window is smaller than the content": */ 
+	max-width: 100%; 
+	max-height: 100%; 
+	overflow: auto; 
+}
+	
+}
+.navbar {
+  overflow: hidden;
+  background-color: #121212;
+}
+
+.navbar a {
+  float: left;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menu-select a {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+a {
+  color: white;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: transparent;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #121212;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  font-family: 'Karla', sans-serif;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#bannerimage {
+  width: 100%;
+  background-image: url(https://media.baamboozle.com/uploads/images/62026/1592285356_75201);
+  height: 200px;
+  background-color: none;
+  background-position: up;
+
+    
+    
+    </style>
+    
+    
+</header>
+</head>
+
+<body>
+
+
+
+
+
+	<div class="top"><!--use  <div class="quote"> to get the content in boxes-->
+		<div class="quote">
+			<p>
+				<a href="#">Mildly Wild Thing Home</a>
+			</p>
+        </div>
+        <div class="quote">
+			<p>
+				<a href="#">Architecture Corner</a>
+			</p>
+            <!--<span>GFG</span>-->
+			
+		</div>
+
+		<div class="quote span-2">
+			<p>
+            	
+				<a href="#">Opition 3</a>
+               
+			</p>
+			
+		</div>
+
+		<div class="quote">
+			<p>
+				<a href="#">Option 4</a>
+			</p>
+            
+		</div>
+
+
+	
+	
+	
+	
+	</div>
+
+</body>
+
+</html>
