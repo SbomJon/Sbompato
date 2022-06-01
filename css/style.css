@@ -1,4 +1,4 @@
-    		body {  
+		body {  
 	  margin: 0;
     text-align: left;
 		background-color: #121212 !important;
@@ -40,11 +40,23 @@
 				}
 a {
           color: #ffffff;
-          text-decouration: bold;
+          text-decoration: bold;
           font-family: 'Karla', arial, sans-serif;
           
                   
                 }
+
+
+
+div.navbar a {
+          color: #ffffff;
+          font-family: 'Karla', arial, sans-serif;
+          font-size:1.7vw;  
+  
+}
+div.navbar a:hover {
+         text-decoration: underline; !important
+}
 
   h1 {	
             color: #ffffff;
@@ -71,8 +83,7 @@ a {
         font-size:20px;
         font-family: 'Lora', serif !important;
         font-weight:normal;
-  }
-        }
+}
         
 ::-moz-selection { /* Code for Firefox */
   			color: white;
