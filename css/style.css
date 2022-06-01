@@ -234,6 +234,16 @@ undh1 {
 			font-family: 'Lora', serif !important;
       font-weight:normal;
 }
+	div.navbar a {
+    float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+          color: #ffffff;
+          font-family: 'Karla', arial, sans-serif;
+          font-size:1.7vw;  
+          padding: 14px 16px;
+}
 
 
 /* Portrait */
