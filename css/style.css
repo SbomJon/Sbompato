@@ -49,14 +49,62 @@ a {
 
 
 div.navbar a {
+    float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
           color: #ffffff;
           font-family: 'Karla', arial, sans-serif;
           font-size:1.7vw;  
-  
+          padding: 14px 16px;
 }
 div.navbar a:hover {
          text-decoration: underline; !important
 }
+
+.navbar {
+  overflow: hidden;
+  background-color: #121212;
+}
+
+<!--.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #121212;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  font-family: 'Karla', sans-serif;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  text-decoration: underline;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}-->
+
 
   h1 {	
             color: #ffffff;
@@ -71,7 +119,7 @@ div.navbar a:hover {
         margin-bottom: 20px;
         margin-top: -20px;
         text-align: center;
-        font-size:120%;
+        font-size:130%;
         font-family: 'Lora', serif;
         font-weight:normal;
       }
@@ -122,61 +170,7 @@ container {
 	max-height: 100%; 
 	overflow: auto; 
 }
-	
-}
-.navbar {
-  overflow: hidden;
-  background-color: #121212;
-}
-.navbar a {
-  float: left;
-  font-family: 'Karla', sans-serif;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: 'Karla', sans-serif;
-  margin: 0;
-}
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: transparent;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #121212;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-.dropdown-content a {
-  float: none;
-  font-family: 'Karla', sans-serif;
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-.dropdown-content a:hover {
-  text-decoration: underline;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+
 #bannerimage {
   width: 100%;
   background-image: url(https://media.baamboozle.com/uploads/images/62026/1592285356_75201);
