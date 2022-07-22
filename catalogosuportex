@@ -1,0 +1,107 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <link rel="stylesheet"
+    href="css/catalogocss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Blog Template</title>
+  </head>
+  <body>
+    <header>Catálogo Suportex</header>
+    <main>
+      <h1>Suportes</h1>
+      <div class="posts">
+        <div class="post">
+          <div class="post__header">
+            <a href="#post">Árvore 1</a>
+          </div>
+          <div class="productimage"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Pinus_densiflora_Kumgangsan.jpg">
+            <div class="post__content"></div>
+            Cores: Branco/Preto<br>
+            Dimensões: 5x5x15<br>
+            Preço: R$150,00/un<br>
+            Diâmetro vaso: 13cm<br>
+          </div>
+        </div>
+         
+        <div class="posts">
+        <div class="post">
+          <div class="post__header">
+            <a href="#post">Árvore 2</a>
+          </div>
+          <div class="productimage"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Pinus_densiflora_Kumgangsan.jpg">
+</div>
+          <div class="post__content">
+            Cores: Branco/Preto<br>
+            Dimensões: 5x5x15<br>
+            Preço: R$150,00/un<br>
+            Diâmetro vaso: 13cm<br>
+          </div>
+          </div>
+          </div>
+        
+          <div class="posts">
+        <div class="post">
+          <div class="post__header">
+            <a href="#post">Rasteiros</a>
+          </div>
+          <div class="productimage"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Pinus_densiflora_Kumgangsan.jpg">
+</div>
+          <div class="post__content">
+            Cores: Branco/Preto/Dourado<br>
+            Dimensões: 5x5 e diâmetros 18, 21, 24, 27, 30, 33 ou 36cm<br>
+            Preço: R$150,00/un<br>
+            Diâmetro vaso: 13cm<br>
+          </div>
+          </div>
+          </div>
+          
+        <div class="posts">
+        <div class="post">
+          <div class="post__header">
+            <a href="#post">Árvore 2</a>
+          </div>
+          <div class="productimage"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Pinus_densiflora_Kumgangsan.jpg">
+</div>
+          <div class="post__content">
+            Cores: Branco/Preto<br>
+            Dimensões: 5x5x15<br>
+            Preço: R$150,00/un<br>
+            Diâmetro vaso: 13cm<br>
+          </div>
+          </div>
+          </div>
+        
+        <div class="posts">
+        <div class="post">
+          <div class="post__header">
+            <a href="#post">Árvore 2</a>
+          </div>
+          <div class="productimage"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Pinus_densiflora_Kumgangsan.jpg">
+</div>
+          <div class="post__content">
+            Cores: Branco/Preto<br>
+            Dimensões: 5x5x15<br>
+            Preço: R$150,00/un<br>
+            Diâmetro vaso: 13cm<br>
+          </div>
+          </div>
+          </div>
+        
+        
+        
+          
+        <!-- Omitted more blog post divs to save space -->
+      </div>
+    </main>
+  </body>
+</html>
