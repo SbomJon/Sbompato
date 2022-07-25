@@ -11,96 +11,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Blog Template</title>
+    <title>Catálogo</title>
   </head>
   <body>
+    
     <header>Catálogo Suportex</header>
-    <header class="sub-header">O toque final com praticidade e beleza</header>
-    <main>
-      <h1>Suportes Tipo 1</h1>
-      <div class="posts">
-        <div class="post">
-          <div class="post__header">
-            <a href="#post">Árvore 1</a>
-          </div>
-          <div class="productimage"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Pinus_densiflora_Kumgangsan.jpg">
-            <div class="post__content"></div>
-            Cores: Branco/Preto<br>
-            Dimensões: 5x5x15<br>
-            Preço: R$150,00/un<br>
-            Diâmetro vaso: 13cm<br>
-          </div>
+    <header class="sub-header">
+      
+      
+      O toque final com praticidade e beleza</header>
+    <div class="collapsible-menu">
+            <input type="checkbox" id="menu">
+            <label for="menu">Menu</label>
+            <div class="menu-content">
+                <ul>
+                    <li><a href="home.html  ">Home</a></li>
+                    <li><a href="catalogo.html">Catálogo</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="mapa.html">Mapa</a></li>
+                    <li><a href="novidades.html">Novidades</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                </ul>
+            </div>
         </div>
-         
-        <div class="posts">
-        <div class="post">
-          <div class="post__header">
-            <a href="#post">Árvore 2</a>
-          </div>
-          <div class="productimage"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Pinus_densiflora_Kumgangsan.jpg">
+    <main>
+      
+      
+     
+     
+
+      <h1>Suportes para parede</h1>
+       <div id="btnContainer">
+  <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> Lista</button> 
+  <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grade</button>
 </div>
-          <div class="post__content">
-            Cores: Branco/Preto<br>
+<br>
+<div class="row">
+  <div class="column" style="background-color:#f2f2f2;">
+    
+    <h2>Árvore 1</h2>
+    <p><div class="productimage"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Pinus_densiflora_Kumgangsan.jpg">
+            <div class="post__content"></div>
+            <br>Cores: Branco/Preto<br>
             Dimensões: 5x5x15<br>
             Preço: R$150,00/un<br>
-            Diâmetro vaso: 13cm<br>
-          </div>
-          </div>
-          </div>
-        
-          <div class="posts">
-        <div class="post">
-          <div class="post__header">
-            <a href="#post">Rasteiros</a>
-          </div>
-          <div class="productimage"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Pinus_densiflora_Kumgangsan.jpg">
-</div>
-          <div class="post__content">
-            Cores: Branco/Preto/Dourado<br>
-            Dimensões: 5x5 e diâmetros 18, 21, 24, 27, 30, 33 ou 36cm<br>
-            Preço: R$150,00/un<br>
-            Diâmetro vaso: 13cm<br>
-          </div>
-          </div>
-          </div>
-          
-        <div class="posts">
-        <div class="post">
-          <div class="post__header">
-            <a href="#post">Árvore 2</a>
-          </div>
-          <div class="productimage"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Pinus_densiflora_Kumgangsan.jpg">
-</div>
-          <div class="post__content">
-            Cores: Branco/Preto<br>
+            Diâmetro vaso: 13cm<br></p>
+  </div>
+      </div>
+      
+      
+  <div class="column" style="background-color:#f2f2f2;">
+    <h2>Árvore 2</h2>
+    <div class="productimage"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Pinus_densiflora_Kumgangsan.jpg">
+     <div class="post__content"></div>
+            <br>Cores: Branco/Preto<br>
             Dimensões: 5x5x15<br>
             Preço: R$150,00/un<br>
-            Diâmetro vaso: 13cm<br>
-          </div>
-          </div>
-          </div>
-        
-        <div class="posts">
-        <div class="post">
-          <div class="post__header">
-            <a href="#post">Árvore 2</a>
-          </div>
-          <div class="productimage"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Pinus_densiflora_Kumgangsan.jpg">
+            Diâmetro vaso: 13cm<br></p>
+      </div>
+  </div>
 </div>
-          <div class="post__content">
-            Cores: Branco/Preto<br>
+
+<div class="row">
+  <div class="column" style="background-color:#f2f2f2;">
+    <h2>Rasteiro 18 aos 36cm</h2>
+    <div class="productimage"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Pinus_densiflora_Kumgangsan.jpg">
+    <div class="post__content"></div>
+            <br>Cores: Branco/Preto<br>
             Dimensões: 5x5x15<br>
             Preço: R$150,00/un<br>
-            Diâmetro vaso: 13cm<br>
-          </div>
-          </div>
-          </div>
-        
-        
-        
-          
+            Diâmetro vaso: 13cm<br></p>
+  </div>
+    </div>
+  
+  <div class="column" style="background-color:#f2f2f2;">
+    <h2>Rodizio 21 aos 36cm</h2>
+    <div class="productimage"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Pinus_densiflora_Kumgangsan.jpg">
+     <div class="post__content"></div>
+            <br>Cores: Branco/Preto<br>
+            Dimensões: 5x5x15<br>
+            Preço: R$150,00/un<br>
+            Diâmetro vaso: 13cm<br></p>
+  </div>
+</div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+     
         <!-- Omitted more blog post divs to save space -->
       </div>
+<p class="fim-da-pagina"><br><br>Parece que você chegou ao fim!</p>
     </main>
   </body>
+  <div class="footer">Entre em contato com a gente!<br>--<br>suportextiete@gmail.com<br>Whatsapp: (15) 9 9633 7111</div>
 </html>
