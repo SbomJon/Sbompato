@@ -5,11 +5,13 @@
   box-sizing: border-box;
 }
 .productimage img {
-    width: 300px;
-    height: 400px;
     border: 1px;
     object-fit: contain;
-    align: left;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
 }
 html,
 body {
@@ -28,7 +30,7 @@ header {
   font-family: 'Montserrat', sans-serif;
   background-color: #F2F2F2;
   color: #005934;
-  font-size: 2rem;
+  font-size: 2em;
   font-weight: 600;
   text-align: center;
   box-shadow: 0 3px 6px -6px black;
@@ -48,27 +50,107 @@ main {
   color: #005934;
   padding: 1rem;
 }
-
-.posts {
-  display: grid;
-  color: #005934;
-  grid-template-columns: repeat(auto-fill, minmax(20rem, 21rem));
-  gap: 2rem;
+.fim-da-pagina{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-bottom: 200px;
+  
 }
 
-.post {
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+
+
+.footer{
   padding: 1rem;
-  border: 2px solid lightgray;
-  border-radius: 0.5rem;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F2F2F2;
+  color: #005934;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+  box-shadow: 0 px 6px -6px black;
 }
 
-.post__header {
-  margin-bottom: 0.5rem;
-  font-size: 1.5rem;
-  font-weight: 600;
+
+.menu-content {
+    max-height: 0;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif; 
+    fontweight : 400;
+    padding: 0 0 0 20px;
 }
-.posts {
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(20rem, 21rem));
-  gap: 2rem;
+.collapsible-menu {
+    background-color: #f2f2f2;
+    padding: 0px 0px;
+    border-bottom: 3px solid #f2f22;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+    width: 100%;
+    color: #005934; 
+}
+.collapsible-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.collapsible-menu a {
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+}
+.collapsible-menu a:hover {
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+    background: #ccc;
+}
+.collapsible-menu label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    display: block;
+    cursor: pointer;
+    background: url(menu.png) no-repeat left center;
+    padding: 10px 0 10px 20px;
+}
+input#menu {
+    display: none;
+}
+input:checked +label {
+    background-image: url(close.png);
+}
+input:checked ~ .menu-content {
+    max-height: 100%;
+}
