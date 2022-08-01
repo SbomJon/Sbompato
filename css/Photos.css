@@ -29,7 +29,7 @@ a:link {
 }
 
 a:visited {
-  color: pink;
+  color: red;
   background-color: transparent;
   text-decoration: none;
 }
@@ -41,7 +41,7 @@ a:hover {
 }
 
 a:active {
-  color: yellow;
+  color: darkred;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -63,6 +63,7 @@ imgcontainer {
   width: 610px;
   heigth: 600px;
 }
+
 
 
 
