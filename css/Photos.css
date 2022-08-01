@@ -1,0 +1,72 @@
+.links{
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.7em;
+  margin-bottom: -0px;
+}
+
+p {
+  font-size: 2em;
+  margin-top: 0px;
+  text-align: left;
+  colour: white;
+  font-family: 'Cutive Mono', monospace;
+}
+a {
+  font-size: 1.2em;
+  text-align: left;
+  font-family: 'Cutive Mono', monospace;
+  text-decoration: none;
+}
+
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  width: 600px;
+  height: 600px;
+  padding-bottom: 5px;
+}
+
+imgcontainer {
+
+  width: 610px;
+  heigth: 600px;
+}
+
+
+
+
+
+
+
+
