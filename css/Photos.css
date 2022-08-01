@@ -26,6 +26,13 @@ a:link {
   color: red;
   background-color: transparent;
   text-decoration: none;
+  background-image: linear-gradient(red, red);
+background-size: 0% 0.01em;
+background-position-y: 100%;
+background-position-x: 0%;
+background-repeat: no-repeat;
+transition: background-size 0.2s ease-in-out;
+
 }
 
 a:visited {
@@ -37,13 +44,14 @@ a:visited {
 a:hover {
   color: red;
   background-color: transparent;
-  text-decoration: underline;
+  background-size: 100% 0.07em;
+
 }
 
 a:active {
   color: darkred;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 
@@ -63,10 +71,24 @@ imgcontainer {
   width: 610px;
   heigth: 600px;
 }
+.leftline {
+  width:40%;
+  border-style:solid;
+  border-color:darkred;
+  border-left:5px;
+  white-space: nowrap;
+  
+}
 
+::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: darkred;
+}
 
-
-
+::selection {
+  color: white;
+  background: darkred;
+}
 
 
 
