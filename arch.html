@@ -11,34 +11,90 @@ font-family: 'Cutive Mono', monospace;-->
 
    <header class="site-header">
   <div class="site-identity">
-    <h1><a href="arch.html">jonatas sbompato</a></h1>
+    
+   <div id="navbar">
+     
+  <a href="index.html">home</a>
+  <a href="gallery.html">gallery</a>
+  <a href="mail.html">about</a>
+</div>
+    
+    
   </div>  
-  <nav class="site-navigation">
-    <ul class="nav">
-      <li><a href="aboutme.html">About Me</a></li> 
-      <li><a href="gallery.html">Gallery</a></li> 
-      <li><a href="mail.html">Contact</a></li> 
-    </ul>
-  </nav>
-     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+     
+     
+  
 
-      .body{
-        font-family: "Courier Prime"
-      }
+     <style>
+     @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+      body {
+  margin: 3em;
+  font-family: Rubik, Helvetica, sans-serif;
+}
+
+/* ====NAVBAR==== */
+#navbar {
+  background-color: ;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: orange;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: ;
+  color: #D07E00;
+}
+
+/* LINKS LINKS LINKS LINKS */
+a:link {
+  color: ORANGE;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #D07E00;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D07E00;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
     </style>
+     
+     
+     
 </header>
 
 <body>
-   <div class="leftline"></div>
-    <p>Jônatas Sbompato</p>
-
-    <div class="links"><a href="aboutme.html" style="colour:red">About me</a></div>
-    <br><br>
-    <p class="subtitle">Photos
+    <p class="subtitle">Links:
     <!--<div class="links"><a href="mylittlewildthiing.html">my little Wild Thing</a></div>-->
     <div class="links"><a href="ihavethornsasteeth.html">Arch Projects -- You're here!!</a></div>
-    <p>My photo albums</p>
+    <p>My photo albums:</p>
     <div class="links"><a href="morningpassion.html">Morning passion</a></div>
     <div class="links"><a href="ihavethornsasteeth.html">I have thorns as teeth</a></div>
     <div class="links"><a href="sleepy.html">s l e e p y</a></div>
@@ -54,6 +110,19 @@ font-family: 'Cutive Mono', monospace;-->
     
   </div>
 
+  <script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+  
 </body>
 <footer>
   <p style="font-size: 0.9em">Copyright 2020-2024 Jônatas Sbompato Pires, All Rights Reserved</p>
